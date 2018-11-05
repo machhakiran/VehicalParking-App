@@ -9,13 +9,13 @@ import org.junit.After;
 import org.junit.Before;
 import org.junit.Test;
 
-import com.gojek.parkinglot.GojeckParkingProcesser;
+import com.gojek.parkinglot.GojekParkingProcesser;
 
 /**
  * Created by Machha Kiran 05/11/2018.
  */
 public class GojekParkingProcesserTest {
-    GojeckParkingProcesser inputParser = new GojeckParkingProcesser();
+    GojekParkingProcesser inputParser = new GojekParkingProcesser();
     private final ByteArrayOutputStream outContent = new ByteArrayOutputStream();
     @Before
     public void setUpStreams() {

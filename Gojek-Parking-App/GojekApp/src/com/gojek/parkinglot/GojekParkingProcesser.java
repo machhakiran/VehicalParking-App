@@ -13,14 +13,14 @@ import java.lang.reflect.Method;
 
  * Vehicle Parking Management Solution Application . 
  */
-public class GojekBulkProcesser {
+public class GojekParkingProcesser {
     GojekParkingFacade commands;
     static GojekParkingLot parkingLot;
-    public GojekBulkProcesser() {
+    public GojekParkingProcesser() {
         commands = new GojekParkingFacade();
         parkingLot = new GojekParkingLot();
     }
-    public void parseTextInput(String inputString) {
+    public void processCommand(String inputString) {
         // Split the input string to get command and input value
         String[] inputs = inputString.split(" ");
         switch (inputs.length) {
@@ -79,7 +79,7 @@ public class GojekBulkProcesser {
             String line;
             try {
                 while ((line = br.readLine()) != null) {
-                    parseTextInput(line.trim());
+                    processCommand(line.trim());
                 }
             } catch (IOException ex) {
                 System.out.println("Error in reading the input file.");

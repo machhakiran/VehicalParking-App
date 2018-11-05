@@ -5,14 +5,14 @@ import static org.junit.Assert.assertTrue;
 
 import org.junit.Test;
 
-import com.gojek.parkinglot.GojeckParkingFacade;
+import com.gojek.parkinglot.GojekParkingFacade;
 
 
 /**
  * Created by Machha Kiran 05/11/2018.
  */
 public class GojekParkingActivitesTest {
-    GojeckParkingFacade commands = new GojeckParkingFacade();
+    GojekParkingFacade commands = new GojekParkingFacade();
     
     @Test
     public void checkCommandInList() throws Exception {

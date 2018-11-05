@@ -4,9 +4,11 @@ import java.util.ArrayList;
 import java.util.Collections;
 import java.util.HashMap;
 import java.util.Map;
-
 /**
- * Created by prasadus on 26/06/16.
+ * @author L4932170
+ *  Created by Machha Kiran 05/11/2018.
+
+ * Vehicle Parking Management Solution Application . 
  */
 public class GojekParkingLot {
    public int MAX_SIZE = 0;

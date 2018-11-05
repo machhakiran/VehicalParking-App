@@ -39,6 +39,9 @@ $ mvn --version;
 
 Gojek Application Running 
 ----------------------------
+Step : build FAT jar file
+GojekApp.jar 
+
 Step 1:
   Copy GojekApp under the location path
   ------------------------------------------

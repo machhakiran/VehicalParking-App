@@ -3,9 +3,11 @@ package com.gojek.parkinglot;
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
-
 /**
- * Created by prasadus on 26/06/16.
+ * @author L4932170
+ *  Created by Machha Kiran 05/11/2018.
+
+ * Vehicle Parking Management Solution Application . 
  */
 
 // Class that drives everything.
@@ -39,7 +41,7 @@ public class GojekAPP {
 		System.out.println("|------------------------------------------------------------|");
 		System.out.println(" 							                                 ");
 
-		GojeckParkingProcesser gojekProcesser = new GojeckParkingProcesser();
+		GojekParkingProcesser gojekProcesser = new GojekParkingProcesser();
 
 		/*
 		 * The Gojek parking Application Project will be provide solution for two major use cases

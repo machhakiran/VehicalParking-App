@@ -9,10 +9,10 @@ import java.util.HashMap;
 
  * Vehicle Parking Management Solution Application . 
  */
-public class GojeckParkingFacade {
+public class GojekParkingFacade {
     public Map<String, Method> commandsMap;
 
-    public GojeckParkingFacade() {
+    public GojekParkingFacade() {
         commandsMap = new HashMap<String, Method>();
         try {
             populateCommandsHashMap();
